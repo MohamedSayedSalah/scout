@@ -1,0 +1,139 @@
+.jobName {
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: 0;
+    margin-left: 5px;
+
+}
+
+.jobState {
+    padding: 0.25rem;
+    min-width: 2.25rem;
+    margin-left: .25rem;
+    line-height: 1.3;
+    font-size: .6875rem;
+    /*border: 1px solid grey;*/
+    color: grey;
+}
+
+
+.button {
+    background: white !important;
+    border: 1px solid #2d88d9 !important;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.jobPane:hover {
+    cursor: pointer;
+}
+
+.jobPane {
+    margin: 20px 10px 20px 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+
+    flex-flow: column;
+    height: 100%;
+
+}
+
+.box .row.header {
+    flex: 0 1 auto;
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+}
+
+.box .row.content {
+    flex: 1 1 auto;
+    background: #f0f0f0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+
+.jobCard {
+    margin: 25px;
+    /*flex-wrap: wrap;*/
+    flex-flow: row;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.newJob {
+
+}
+
+.footer {
+    flex: 0 1 200px;
+    background-color: #666;
+}
+
+.topBar {
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 1.125rem;
+    height: 60px;
+    background-color: #fefefe;
+}
+
+.topbar-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100rem;
+    width: 100%;
+    padding-top: .75rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navi {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    line-height: 2.4;
+    /*padding: 0 0.5rem 1rem 0.5rem;*/
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1.125rem;
+    font-family: source sans pro, sans-serif;
+}
+
+.jobCardRightSide {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: inherit;
+}
+
+.progress-bar {
+    position: relative;
+    height: 7px;
+    width: 280px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #EAEAEA;
+    top: 10%;
+}
+
+.filler {
+    background: #7ed321;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+}
